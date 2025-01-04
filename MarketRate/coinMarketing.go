@@ -17,5 +17,5 @@ type CoinResponse struct {
 	Status struct {
 		Timestamp string `json:"timestamp"`
 	} `json:"status"`
-	Data []Coin `json:"data"`
+	Data []MarketingCoin `json:"data"`
 }
