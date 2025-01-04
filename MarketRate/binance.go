@@ -1,6 +1,6 @@
 package marketRateType
 
-type Coin struct {
+type BinanceCoin struct {
 	EventType              string `json:"e"` // Event type
 	EventTime              int64  `json:"E"` // Event time
 	Symbol                 string `json:"s"` // Symbol
